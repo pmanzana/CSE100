@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+//*************************
+// Name: Pedro Manzanarez
+// Title: CSE100_HW1.cpp
+// Description: (making a code where a+b=c)
+// Date: 7 Sep 2023
+
+int a, b;  //Define the input integers you will have
+cout << "Type two integers here." << endl;
+cin >> a >> b; //no endl, only on cout statements
+int c = a + b; //define what c is
+cout << "The sum of two integers is: " << c << endl;
+return 0;
+}
